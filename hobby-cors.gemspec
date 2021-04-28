@@ -1,9 +1,12 @@
 Gem::Specification.new do |g|
   g.name    = 'hobby-cors'
   g.files   = ['lib/hobby/cors.rb']
-  g.version = '0.0.0'
-  g.summary = 'A Rack CORS middleware without complexities.'
-  g.authors = ['Anatoly Chernow']
+  g.version = '0.1.0'
+  g.summary = 'A Rack middleware for CORS, with permissive defaults.'
+  g.authors = ['Anatoly Chernov']
+  g.email   = ['chertoly@gmail.com']
+  g.license = 'ISC'
+  g.homepage = 'https://github.com/ch1c0t/hobby-cors'
 
-  g.add_dependency 'rack'
+  g.add_dependency 'rack', '~> 2'
 end
