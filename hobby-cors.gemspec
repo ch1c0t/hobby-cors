@@ -1,7 +1,7 @@
 Gem::Specification.new do |g|
   g.name    = 'hobby-cors'
   g.files   = ['lib/hobby/cors.rb']
-  g.version = '0.1.0'
+  g.version = '0.1.1'
   g.summary = 'A Rack middleware for CORS, with permissive defaults.'
   g.authors = ['Anatoly Chernov']
   g.email   = ['chertoly@gmail.com']

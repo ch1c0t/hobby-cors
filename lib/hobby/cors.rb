@@ -4,7 +4,10 @@ module Hobby
   class CORS
     def initialize app, origins: nil
       @app = app
-      @origins = origins
+      @origins = if origins
+                   require 'set'
+                   Set.new origins
+                 end
     end
 
     def call env
