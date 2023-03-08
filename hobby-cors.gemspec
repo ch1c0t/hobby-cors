@@ -8,5 +8,5 @@ Gem::Specification.new do |g|
   g.license = 'ISC'
   g.homepage = 'https://github.com/ch1c0t/hobby-cors'
 
-  g.add_dependency 'rack', '~> 2'
+  g.add_dependency 'rack', '>= 2', '< 4'
 end
